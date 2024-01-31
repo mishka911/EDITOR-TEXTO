@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <h1 style="font-weight: bold; text-align: center;">Propuesta</h1>
+    <br><br> 
+    <div class="container">
+        <h2><em>Detalle del programa a usar</em></h2>
+        <div class="column">
+            <textarea id="editor1" placeholder="Escribe tu texto aquí"></textarea>
+        </div>
+        
+        <h2><em>Análisis de ventajas y desventajas</em></h2>
+        <div class="column" id="lista">
+            <textarea id="editor2" placeholder="Ingresa una ventaja o desventaja"></textarea>
+        </div>
+        <button onclick="agregarElemento()">Agregar elemento</button>
+
+        <button onclick="imprimirPDF()">Imprimir PDF</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
