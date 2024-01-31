@@ -1,0 +1,1 @@
+Es un pequeño codigo en el cual, el usuario puede ingresar los datos que necesite sea tipo exto o tipo lista y pueda imprimir el documento tipo PDF, sin perder los estilos. Ademas tiene un boton oara ir agregando mas elementos
